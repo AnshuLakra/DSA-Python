@@ -1,3 +1,7 @@
-temp = [1]
-if temp:
-    print("yes")
+temp = {}
+print(temp)
+a = "A"
+if a not in temp.keys():
+    temp[a] = []
+
+print(temp)
