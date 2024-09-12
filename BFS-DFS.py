@@ -1,7 +1,6 @@
-temp = {}
-print(temp)
-a = "A"
-if a not in temp.keys():
-    temp[a] = []
+temp ={
+    "a":[4,3,2,9]
+}
 
-print(temp)
+for i in temp["a"]:
+    print(i)
