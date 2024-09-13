@@ -4,3 +4,5 @@ temp ={
 
 for i in temp["a"]:
     print(i)
+
+#streks
