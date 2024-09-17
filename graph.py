@@ -106,3 +106,5 @@ sample.print_graph()
 # BFS
 print("\n")
 sample.bfs("A")
+
+#test
