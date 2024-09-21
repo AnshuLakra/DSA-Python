@@ -80,6 +80,18 @@ class Graph:
                 if adjacent_vertex not in visited:
                     visited.add(adjacent_vertex)
                     queue.append(adjacent_vertex)
+    
+    def dfs(self,vertex):
+        visited = set()
+        stack = [vertex]
+        while stack:
+            current_vertex = stack.pop()
+            if current_vertex not in visited:
+                print(current_vertex)
+                visited.add(current_vertex)
+            for adjecent_vertex in self.adjacency_list[current_vertex]:
+                if adjecent_vertex not in visited:
+                    stack.append(adjecent_vertex)
 
 
         
@@ -105,6 +117,6 @@ sample.print_graph()
 
 # BFS
 print("\n")
-sample.bfs("A")
+# sample.bfs("A")
+sample.dfs("A")
 
-# day 4
