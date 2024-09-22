@@ -120,3 +120,5 @@ print("\n")
 # sample.bfs("A")
 sample.dfs("A")
 
+
+# streaks
