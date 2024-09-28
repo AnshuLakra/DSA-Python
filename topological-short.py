@@ -8,4 +8,6 @@ test[vertex]
 print(test)
 
 test[vertex].append(vertex)
-print(test)
+
+
+test
